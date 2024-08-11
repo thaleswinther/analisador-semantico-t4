@@ -1,4 +1,4 @@
-# Trabalho 3 - Construção de Compiladores (2024/1)
+# Trabalho 4 - Construção de Compiladores (2024/1)
 
 ## Integrantes do grupo
 - Arisa Abiko Sakaguti - 800357
@@ -6,7 +6,7 @@
 - Thales Winther - 802499
 
 ## Contexto
-O trabalho 3 (T3) da disciplina consistiu em implementar um analisador semântico para a linguagem LA (Linguagem Algorítmica) 
+O trabalho 4 (T4) da disciplina consistiu em implementar um analisador semântico para a linguagem LA (Linguagem Algorítmica) 
 desenvolvida pelo prof. Jander, no âmbito do DC/UFSCar. O analisador semântico é capaz de ler um programa-fonte e indificar onde existe
 um erro semântico, indicando a linha e o lexema que causou a detecção do erro
 
@@ -41,7 +41,7 @@ Também é possível mover o arquivo `AnalisadorSemantico.jar` para outro caminh
 Com o ambiente configurado, basta rodar o seguinte comando e se tudo correr bem um arquivo de saída será gerado na pasta `temp`:
 
 ```
-java -jar /caminho_absoluto/AnalisadorAnalisadorSemantico.jar /home/usuario/casos-de-teste/3.casos_teste_t3/entrada/entrada1.txt /home/usuario/temp/saida1.txt
+java -jar /caminho_absoluto/AnalisadorAnalisadorSemantico.jar /home/usuario/casos-de-teste/4.casos_teste_t4/entrada/entrada1.txt /home/usuario/temp/saida1.txt
 ```
 
 #### Windows
@@ -49,7 +49,7 @@ No Windows o processo é muito semelhante ao do Linux, sendo recomendável coloc
 Sabendo onde está cada arquivo basta executar o seguinte comando no terminal:
 
 ```
-java -jar c:\caminho_absoluto\AnalisadorLexico.jar c:\casos-de-teste\3.casos_teste_t3\entrada\entrada2.txt c:\temp\saida2.txt
+java -jar c:\caminho_absoluto\AnalisadorLexico.jar c:\casos-de-teste\4.casos_teste_t4\entrada\entrada2.txt c:\temp\saida2.txt
 ```
 
-Para cada saída gerada é possível compará-la com a saída esperada acessando a pasta `casos-de-teste/3.casos_teste_t3/saida`.
+Para cada saída gerada é possível compará-la com a saída esperada acessando a pasta `casos-de-teste/4.casos_teste_t4/saida`.
